@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--按下的颜色-->
+    <item android:state_pressed="true">
+        <shape>
+            <corners
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+            <padding
+                android:bottom="0dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+            <solid android:color="@color/webBg" />
+        </shape>
+    </item>
+
+    <!--松开的颜色-->
+    <item android:state_enabled="false">
+        <shape>
+            <corners
+                android:topLeftRadius="0dp"
+                android:topRightRadius="0dp"
+                android:bottomLeftRadius="0dp"
+                android:bottomRightRadius="0dp" />
+            <padding
+                android:bottom="0dp"
+                android:left="0dp"
+                android:right="0dp"
+                android:top="0dp" />
+            <solid android:color="@color/white" />
+        </shape>
+    </item>
+
+    <!--默认的颜色-->
+    <shape>
+        <corners
+            android:topLeftRadius="0dp"
+            android:topRightRadius="0dp"
+            android:bottomLeftRadius="0dp"
+            android:bottomRightRadius="0dp" />
+        <padding
+            android:bottom="0dp"
+            android:left="0dp"
+            android:right="0dp"
+            android:top="0dp" />
+        <solid android:color="@color/white" />
+    </shape>
+</selector>
